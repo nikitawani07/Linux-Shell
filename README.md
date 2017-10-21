@@ -5,11 +5,17 @@ Implemented a Linux shell for running different commands that supports i/o redir
 ## Functionality implemented
 
 a) Executes all the commands (ls, clear, vi etc) 
+
 b) Shell built-ins (cd, pwd, export) 
+
 c) Print environment variables and text using echo
+
 d) Allow for the piping of several tasks :  Pipes “|” (multiple) 
+
 e) Input and Output redirection: (<, >) 
+
 f) Support for history and '!' operator 
+
 g) Handle Interrupt Signal (Control-C)
 
 ## Function Description
