@@ -20,13 +20,13 @@ g) Handle Interrupt Signal (Control-C)
 
 ## Function Description
 
-a) Write history in a history file, load history and execute the history command 
+* Write history in a history file, load history and execute the history command 
     void writehistory(string cmd) : It writes the command in the history file.
     void loadhistory() : It loads the content of the history file line by line in vector. 
     void executehistory() : To implement history command
     void executehistory(int num) : To implement history command with a number e.g. history 5
 
-b) void executepwd() : Function to execute pwd command
+* void executepwd() : Function to execute pwd command
 
 c) void executecd(string path) : Function to execute cd command
 
