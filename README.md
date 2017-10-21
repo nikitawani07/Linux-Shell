@@ -20,15 +20,13 @@ g) Handle Interrupt Signal (Control-C)
 
 ## Function Description
 
-* Write history in a history file, load history and execute the history command 
+* void writehistory(string cmd) : It writes the command in the history file.
     
-    void writehistory(string cmd) : It writes the command in the history file.
+* void loadhistory() : It loads the content of the history file line by line in vector.
     
-    void loadhistory() : It loads the content of the history file line by line in vector.
+* void executehistory() : To implement history command    
     
-    void executehistory() : To implement history command    
-    
-    void executehistory(int num) : To implement history command with a number e.g. history 5
+* void executehistory(int num) : To implement history command with a number e.g. history 5
 
 * void executepwd() : Function to execute pwd command
 
@@ -52,11 +50,9 @@ g) Handle Interrupt Signal (Control-C)
 
 * int parse(string cmd,string command[]) : Function to parse the command given. It stores the each command separated by pipes in command array.
 
-* Function to execute bang command
+* void executebang(int cmdno,int status) : It executes command containing bang operator e.g. !!, !-1, !1000  
   
-    void executebang(int cmdno,int status) : It executes command containing bang operator e.g. !!, !-1, !1000  
-  
-    void executebang(string bang) : It executes command containing bang operator given the string e.g. !v. This will execute the last command starting with v in the history file. 
+* void executebang(string bang) : It executes command containing bang operator given the string e.g. !v. This will execute the last command starting with v in the history file. 
 
 
 ## Program flow
