@@ -12,7 +12,7 @@ e) 	Input and Output redirection: (<, >)
 f)	Support for history and '!' operator 
 g) 	Handle Interrupt Signal (Control-C)
 
-## Function Description:
+## Function Description
 
 a) 	Write history in a history file, load history and execute the history command 
 	
