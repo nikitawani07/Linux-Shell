@@ -21,14 +21,10 @@ g) Handle Interrupt Signal (Control-C)
 ## Function Description
 
 a) Write history in a history file, load history and execute the history command 
-
-  void writehistory(string cmd) : It writes the command in the history file.
-  
-  void loadhistory() : It loads the content of the history file line by line in vector. 
-  
-  void executehistory() : To implement history command
-  
-  void executehistory(int num) : To implement history command with a number e.g. history 5
+    void writehistory(string cmd) : It writes the command in the history file.
+    void loadhistory() : It loads the content of the history file line by line in vector. 
+    void executehistory() : To implement history command
+    void executehistory(int num) : To implement history command with a number e.g. history 5
 
 b) void executepwd() : Function to execute pwd command
 
@@ -41,9 +37,7 @@ e) string removespace(string command) : Function to remove leading spaces from t
 f) string removequotes(string command) : Function to remove quotes from the command.
 
 g) Function to check whether IO redirection present i.e. whether it is reading from the file or writing in the file.
-  
   int searchinput(string command,char file[])
-
   int searchoutput(string command,char file[])
 
 h) string replacepipe(string command) : Function to replace space with pipe for parsing after each command is extracted separately
@@ -53,9 +47,7 @@ i) void execute(string command[], int num) : Function to execute command. It che
 j) int parse(string cmd,string command[]) : Function to parse the command given. It stores the each command separated by pipes in command array.
 
 i) Function to execute bang command
-
-  void executebang(int cmdno,int status) : It executes command containing bang operator e.g. !!, !-1, !1000
-  
+  void executebang(int cmdno,int status) : It executes command containing bang operator e.g. !!, !-1, !1000  
   void executebang(string bang) : It executes command containing bang operator given the string e.g. !v. This will execute the last command starting with v in the history file. 
 
 
