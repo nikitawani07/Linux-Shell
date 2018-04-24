@@ -1,4 +1,4 @@
-# LinuxShell
+# Linux Shell
 
 Implemented a Linux shell for running different commands that supports i/o redirection, piping, history, environment variables, external-internal commands using various system calls.
 
